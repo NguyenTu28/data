@@ -1,0 +1,12 @@
+************************ KIẾN THỨC C# CƠ BẢN ****************************
+
+**Các nhóm dữ liệu của C#: Enumeration, Structure, Class, Interface, Delegate
+
+*** Các kiểu dl người dùng tự định nghĩa
+1. ENUM
+
+* Là kiểu dl chứa một danh sách hữu hạn hằng số
+* Mỗi hằng số đc đặt 1 tên gọi tương ứng, giá trị mặc định của các hằng số là số nguyên (bắt đầu từ 0) int nhưng cũng có thể thay đổi thành kiểu số nguyên khác như byte,...
+* Cách khai báo và sd xem trong ví dụ
+
+2. STRUCTURE
