@@ -1,4 +1,4 @@
-************************ KIẾN THỨC C# CƠ BẢN ****************************
+﻿************************ KIẾN THỨC C# CƠ BẢN ****************************
 
 **Các nhóm dữ liệu của C#: Enumeration, Structure, Class, Interface, Delegate
 
@@ -10,3 +10,18 @@
 * Cách khai báo và sd xem trong ví dụ
 
 2. STRUCTURE
+* Là nhóm kiểu dl trong đó mỗi kiểu dữ liệu có thể chứa các thành viên khác
+* Các thành viên chính:
+	- Biến thành viên (Member variable) hay trường dữ liệu (data field): chứa dl của struct
+	- Phương thức thành viên (Method): xử lý thông tin
+	- Đặc tính (Property): xuất nhập dữ liệu
+* Ngoài ra còn các thành viên khác như: hằng, bộ đánh chỉ mục(indexer), phép toán(operator), sự kiện(event), kiểu con(nested type)
+* Khai báo:
+	[access_modifier] struct <type_name>
+	{
+		Khai báo các thành viên
+	}
+- access_modifier: public hoặc internal. Nếu không khai báo, mặc định internal
+* Sử dụng khá giống với Class
+* Cũng có ghi đè phương thức(Method Override) và nạp chồng toán tử (Operator Overloading)
+
